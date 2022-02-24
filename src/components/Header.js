@@ -3,7 +3,6 @@ import styled from 'styled-components';
 // import MenuIcon from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import {userSelector} from 'react-redux';
 
 function Header() {
 
@@ -12,7 +11,7 @@ function Header() {
   return (
     <Container>
       <a>
-        <img src='/images/logo.svg'/>
+        <img src='images/logo.svg'/>
       </a>
       <Menu>
         <a href=''>Model S</a>
